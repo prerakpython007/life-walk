@@ -1,36 +1,67 @@
-.main-bg{
+body {
     background-color: black;
+    background-image: 
+        linear-gradient(to right, rgba(128, 128, 128, 0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(128, 128, 128, 0.1) 1px, transparent 1px);
+    background-size: 60px 60px;
+    background-attachment: fixed;
+}
+
+.star-pattern {
+    width: 9000px;
     height: screen;
-    width: 3000px;
+    background-image: 
+        radial-gradient(circle at 15% 35%, white 2px, transparent 2.5px),
+        radial-gradient(circle at 45% 75%, white 1px, transparent 1.2px),
+        radial-gradient(circle at 75% 25%, white 1.5px, transparent 1.7px),
+        radial-gradient(circle at 85% 65%, white 0.8px, transparent 1px),
+        radial-gradient(circle at 25% 85%, white 1.2px, transparent 1.4px),
+        radial-gradient(circle at 65% 15%, white 0.6px, transparent 0.8px),
+        radial-gradient(circle at 35% 45%, white 1.8px, transparent 2px),
+        radial-gradient(circle at 95% 35%, white 1px, transparent 1.3px),
+        radial-gradient(circle at 5% 95%, white 1.5px, transparent 1.6px);
+    background-size: 
+        800px 800px,
+        650px 650px,
+        750px 750px,
+        550px 550px,
+        720px 720px,
+        580px 580px,
+        860px 860px,
+        630px 630px,
+        690px 690px;
+    background-position: 
+        100px 200px,
+        1520px 330px,
+        2730px 445px,
+        3890px 500px,
+        4280px 320px,
+        5520px 630px,
+        6810px 480px,
+        7150px 270px,
+        8520px 590px;
 }
 
-.grid{
-    display: grid;
-    height: screen;
-    grid-template-columns: repeat(3, 1fr);
+.container-1 {
+    display: flex;
+    width: 9000px;
 }
 
-.container-1{
-    width: 200px;
-    height: 400px;
-    margin-left: 100px;
-    margin-top: 200px;
-    text-align: center;
-    background: red;
+.earth {
+    width: 58%;
 }
 
-.container-2{
-    width: 200px;
-    height: 400px;
-    margin-left: 100px;
-    margin-top: 200px;
-    background: blue;
+.space-ship {
+    width: 10%;
+    margin-top: 340px;
+    margin-left: -220px;
+    position: fixed;
 }
 
-.container-3{
-    width: 200px;
-    height: 400px;
-    margin-left: 100px;
-    margin-top: 200px;
-    background: green;
-}
+
+
+
+
+
+
+

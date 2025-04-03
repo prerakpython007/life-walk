@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Document</title>
 </head>
-<body class="main-bg">
-    <div class="grid">
-        <div class="container-1 rellax" data-rellax-speed="0" >
-            <h1>NO-scroll <br> animation</h1>
-        </div>
-        <div class="container-2 rellax"  data-rellax-speed="-7"> 
-            <h1>Slow <br> animation</h1>
-        </div>
-        <div class="container-3 rellax" data-rellax-speed="10">
-            <h1>fast <br> animation</h1>
-        </div>
+<body class="" >
+  <div class="star-pattern">
+  <div class="container-1">
+    <div>
+      <img src="/images/world.png" class="earth rellax" data-rellax-speed="-5" alt="">
     </div>
+    <div>
+      <img src="/images/ship-1414822_1280.png" class="space-ship "  alt="">
+    </div>
+  </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" ></script>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
 <script>
   var rellax = new Rellax('.rellax', {
-  horizontal: true,
-  vertical: false,
-    center: true,
+    horizontal: true,
+    vertical: false,
   });
 </script>
 
