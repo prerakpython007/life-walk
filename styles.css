@@ -1,16 +1,6 @@
 body {
     background-color: black;
     background-image: 
-        linear-gradient(to right, rgba(128, 128, 128, 0.1) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(128, 128, 128, 0.1) 1px, transparent 1px);
-    background-size: 60px 60px;
-    background-attachment: fixed;
-}
-
-.star-pattern {
-    width: 9000px;
-    height: screen;
-    background-image: 
         radial-gradient(circle at 15% 35%, white 2px, transparent 2.5px),
         radial-gradient(circle at 45% 75%, white 1px, transparent 1.2px),
         radial-gradient(circle at 75% 25%, white 1.5px, transparent 1.7px),
@@ -19,7 +9,9 @@ body {
         radial-gradient(circle at 65% 15%, white 0.6px, transparent 0.8px),
         radial-gradient(circle at 35% 45%, white 1.8px, transparent 2px),
         radial-gradient(circle at 95% 35%, white 1px, transparent 1.3px),
-        radial-gradient(circle at 5% 95%, white 1.5px, transparent 1.6px);
+        radial-gradient(circle at 5% 95%, white 1.5px, transparent 1.6px),
+        linear-gradient(to right, rgba(128, 128, 128, 0.1) 2px, transparent 2px),
+        linear-gradient(to bottom, rgba(128, 128, 128, 0.1) 2px, transparent 2px);
     background-size: 
         800px 800px,
         650px 650px,
@@ -29,17 +21,26 @@ body {
         580px 580px,
         860px 860px,
         630px 630px,
-        690px 690px;
+        690px 690px,
+        60px 60px,
+        60px 60px;
     background-position: 
         100px 200px,
-        1520px 330px,
-        2730px 445px,
-        3890px 500px,
-        4280px 320px,
-        5520px 630px,
-        6810px 480px,
-        7150px 270px,
-        8520px 590px;
+        520px 330px,
+        730px 445px,
+        890px 500px,
+        1280px 320px,
+        1520px 630px,
+        1810px 480px,
+        2150px 270px,
+        2520px 590px,
+        0 0,
+        0 0;
+    margin: 0;
+}
+
+.star-pattern{
+    
 }
 
 .container-1 {
@@ -48,7 +49,21 @@ body {
 }
 
 .earth {
-    width: 58%;
+    width: 59.3%;
+}
+
+.satellite{
+    width: 7%;
+    margin-top: 100px;
+    margin-left: 700px; 
+}
+.satellite-text{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    margin-left: 740px;
+
 }
 
 .space-ship {
