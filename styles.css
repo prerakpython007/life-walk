@@ -1,0 +1,35 @@
+.main-bg{
+    background-color: black;
+    height: 2000px;
+}
+
+.grid{
+    display: grid;
+    height: 3000px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-1{
+    width: 200px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 200px;
+    text-align: center;
+    background: red;
+}
+
+.container-2{
+    width: 200px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 200px;
+    background: blue;
+}
+
+.container-3{
+    width: 200px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 200px;
+    background: green;
+}
