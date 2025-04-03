@@ -1,11 +1,12 @@
 .main-bg{
     background-color: black;
-    height: 2000px;
+    height: screen;
+    width: 3000px;
 }
 
 .grid{
     display: grid;
-    height: 3000px;
+    height: screen;
     grid-template-columns: repeat(3, 1fr);
 }
 
